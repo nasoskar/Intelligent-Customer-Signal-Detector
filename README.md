@@ -60,3 +60,9 @@ The output of the app consists of a risk level, risk score, sentiment label, con
     <td>Escalate to senior retention specialist within 24h; offer goodwill credit for unresolved billing issue.</td>
   </tr>
 </table>
+
+## Screenshots of the app's interface
+
+![Alt text](interface01.png)
+![Alt text](interface02.png)
+![Alt text](interface03.png)
