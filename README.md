@@ -45,7 +45,7 @@ The output of the app consists of a risk level, risk score, sentiment label, con
   </tr>
   <tr>
     <td><strong>Confidence</strong></td>
-    <td>Confident — no review flag</td>
+    <td>Confident (no review flag) </td>
   </tr>
   <tr>
     <td><strong>Sentiment</strong></td>
@@ -79,3 +79,5 @@ The output of the app consists of a risk level, risk score, sentiment label, con
 ## Run deployed app
 1. Go to https://customeriq.streamlit.app/ in a web browser 
 2. Upload the dataset and copy&paste the Claude API key into the app
+
+Claude API: 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
