@@ -27,10 +27,9 @@ A confidence-gap check is also added in the workflow in order to account for the
 
 The app works by uploading a dataset (usually a csv file) following the structure of the synthetic dataset, without the ground truth column. An indicative example of the input is shown in the below table:
 
-| Input | | Output | |
-|---|---|---|---|
-| **Customer / Product** | CUST-0042 — Business Starter, Monthly, 8mo tenure | **Risk tier** | High (score 8.7/10) |
-| **Billing / complaints** | £189.40/mo, 3 payment delays, 5 complaints, 2 open tickets (6mo) | **Confidence** | Confident — no review flag |
-| **Satisfaction / NPS** | 1.8 / 5 · 2 / 10 | **Sentiment** | Frustrated |
-| **Transcript** | "I've called four times and nobody has fixed this. I'm exhausted dealing with this every month." | **Rationale** | Repeated unresolved complaints with very low satisfaction/NPS; transcript confirms ongoing frustration despite multiple contacts. |
-| | | **Action** | Escalate to senior retention specialist within 24h; offer goodwill credit for unresolved billing issue. |
+
+| customer_id | product | contract_type | tenure_months | monthly_charge_gbp | payment_delays_last_6mo | num_complaints_last_6mo | open_tickets | days_since_last_contact | satisfaction_score | nps_score | last_contact_channel | payment_method | latest_support_transcript | ground_truth_risk |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| CUST-0001 | Premium Add-on | Annual | 15 | 121.57 | 0 | 0 | 0 | 99 | 4.0 | 7 | Web Form | Credit Card | "I wanted to check on the status of my feature request from a few weeks ago. Happy with everything else though." | Low |
+| CUST-0002 | Business Starter | Annual | 14 | 131.19 | 6 | 3 | 4 | 8 | 1.8 | 4 | Phone | Credit Card | "I submitted a cancellation request last week and nobody got back to me. If I don't hear back by Friday I'm going to dispute the charge with my bank." | High |
+| CUST-0003 | Pro Plan | Monthly | 9 | 156.40 | 2 | 1 | 1 | 22 | 2.9 | 5 | Chat | Direct Debit | "The service has been a bit slow lately. Not a huge deal but I wanted to flag it. Hoping it gets better soon otherwise I might look at other options." | Medium |
