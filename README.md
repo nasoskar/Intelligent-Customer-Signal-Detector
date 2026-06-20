@@ -63,6 +63,6 @@ The output of the app consists of a risk level, risk score, sentiment label, con
 
 ## Screenshots of the app's interface
 
-![Alt text](C:\Users\nasos\Desktop\CITY MSC\SEMESTER 2\Intelligent-Customer-Signal-Detector\interface01.png)
+![Alt text](interface01.png)
 ![Alt text](interface02.png)
 ![Alt text](interface03.png)
