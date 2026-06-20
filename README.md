@@ -40,5 +40,5 @@ The output of the app consists of a risk level, risk score, sentiment label, con
 | **Risk tier** | High (score 8.7/10) |
 | **Confidence** | Confident — no review flag |
 | **Sentiment** | Frustrated |
-|**Explanation** | Repeated unresolved complaints with very low satisfaction/NPS; transcript confirms ongoing frustration despite multiple contacts. |
+| **Explanation** | Repeated unresolved complaints with very low satisfaction/NPS; transcript confirms ongoing frustration despite multiple contacts. |
 | **Action** | Escalate to senior retention specialist within 24h; offer goodwill credit for unresolved billing issue. |
