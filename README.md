@@ -67,3 +67,7 @@ The output of the app consists of a risk level, risk score, sentiment label, con
 ![Alt text](interface02.png)
 ![Alt text](interface03.png)
 ![Alt text](interface04.png)
+
+## Setup Instructions
+- requirements.txt
+- run streamlit
