@@ -35,10 +35,28 @@ The app works by uploading a dataset (usually a csv file) following the structur
 
 The output of the app consists of a risk level, risk score, sentiment label, confidence level, explanation, and recommended action as shown in the table below.
 
-| Output |
-|---|---|
-| **Risk tier** | High (score 8.7/10) |
-| **Confidence** | Confident — no review flag |
-| **Sentiment** | Frustrated |
-| **Explanation** | Repeated unresolved complaints with very low satisfaction/NPS; transcript confirms ongoing frustration despite multiple contacts. |
-| **Action** | Escalate to senior retention specialist within 24h; offer goodwill credit for unresolved billing issue. |
+<table>
+  <tr>
+    <th colspan="2">Output</th>
+  </tr>
+  <tr>
+    <td><strong>Risk tier</strong></td>
+    <td>High (score 8.7/10)</td>
+  </tr>
+  <tr>
+    <td><strong>Confidence</strong></td>
+    <td>Confident — no review flag</td>
+  </tr>
+  <tr>
+    <td><strong>Sentiment</strong></td>
+    <td>Frustrated</td>
+  </tr>
+  <tr>
+    <td><strong>Explanation</strong></td>
+    <td>Repeated unresolved complaints with very low satisfaction/NPS; transcript confirms ongoing frustration despite multiple contacts.</td>
+  </tr>
+  <tr>
+    <td><strong>Action</strong></td>
+    <td>Escalate to senior retention specialist within 24h; offer goodwill credit for unresolved billing issue.</td>
+  </tr>
+</table>
