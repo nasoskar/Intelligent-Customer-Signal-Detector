@@ -69,5 +69,13 @@ The output of the app consists of a risk level, risk score, sentiment label, con
 ![Alt text](interface04.png)
 
 ## Setup Instructions
-- requirements.txt
-- run streamlit
+
+### Run locally
+1. Clone project's repo locally
+2. Install necessary requirements by running 'pip install -r requirements.txt' in a terminal
+3. Run 'streamlit run app_improved.py' in a terminal
+4. Upload the dataset and copy&paste the Claude API key into the app
+
+## Run deployed app
+1. Go to https://customeriq.streamlit.app/ in a web browser 
+2. Upload the dataset and copy&paste the Claude API key into the app
