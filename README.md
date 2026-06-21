@@ -61,13 +61,6 @@ The output of the app consists of a risk level, risk score, sentiment label, con
   </tr>
 </table>
 
-## Screenshots of the app's interface
-
-![Alt text](interface01.png)
-![Alt text](interface02.png)
-![Alt text](interface03.png)
-![Alt text](interface04.png)
-
 ## Setup Instructions
 
 ### Run locally
@@ -80,4 +73,12 @@ The output of the app consists of a risk level, risk score, sentiment label, con
 1. Go to https://customeriq.streamlit.app/ in a web browser 
 2. Upload the dataset and copy&paste the Claude API key into the app
 
-Claude API: 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
+## Screenshots of the app's interface
+
+![Alt text](interface01.png)
+![Alt text](interface02.png)
+![Alt text](interface03.png)
+![Alt text](interface04.png)
+
+
+
